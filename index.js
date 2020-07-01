@@ -1,4 +1,4 @@
-var chunk = require('lodash.chunk');
+
 var pull = require('lodash.pull');
 var difference = require('lodash.difference');
 var take = require('lodash.take');
@@ -14,7 +14,7 @@ var camelCase = require('lodash.camelcase');
 var union = require('lodash.union');
 var endsWith = require('lodash.endswith');
 
-console.log(chunk([1, 2, 3, 4, 5], 2));
+
 array=['b', 'b', 'a', 'a', 'c', 'b','d','a'];
 console.log(pull(array, 'a', 'c'))
 console.log(difference([3,5], [4,1,3]));
